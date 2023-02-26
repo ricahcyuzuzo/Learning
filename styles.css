@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Raleway&display=swap');
+
+body{
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Navigation bar styles */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item:hover{
+    color: #9b05ce;
+}
+
+.nav-items-container{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.logo-class{
+    color: #9b05ce;
+}
+
+.nav-button{
+    border: 1px solid #9b05ce;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;  
+    background-color: #fff;
+    cursor: pointer;
+    color: #9b05ce;
+}
+
+.nav-button:hover{
+    background-color: #9b05ce;
+    color: #fff;
+}
+
+/* Body Styles */
+
+.heading{
+    font-size: 60px;
+    font-family: 'poppins', sans-serif;
+}
+
+.paragraph{
+    font-family: 'poppins', sans-serif;
+    color: #8a8a8a;
+}
+
+.get-started-button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #9b05ce;
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: 0px;
+}
+
+.body-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.image-container{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #d6c955;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image-woman{
+    width: 400px;
+    height: 400px;
+    margin-top: -70px;
+}
+
+.pen-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(15, 188, 188);
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(203, 80, 152);
+    position: absolute;
+    bottom: 105px;
+    right: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #4c193d;
+    position: absolute;
+    bottom: 40px;
+    left: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trusted-container{
+    width: 70%;
+    height: 200px;
+    background-color: #e5d457;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 170px;
+}
+
+.trusted-header{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.colleges-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.collage-image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
